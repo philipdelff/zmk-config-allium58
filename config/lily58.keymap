@@ -26,9 +26,9 @@
 
             bindings =
                 <&macro_press &kp LCTRL>
-                <&macro_tap &kp C>
-                <&macro_release &kp LCTRL>
-                <&macro_tap &kp COMMA>;
+                ,<&macro_tap &kp C>
+                ,<&macro_release &kp LCTRL>
+                ,<&macro_tap &kp COMMA>;
         };
     };
 
