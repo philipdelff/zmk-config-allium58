@@ -18,7 +18,7 @@
 
 / {
 
- macros {
+    macros {
         ctrl_c_com: ctrl_c_com {
             compatible = "zmk,behavior-macro";
             label = "CTRL_C_COM";
