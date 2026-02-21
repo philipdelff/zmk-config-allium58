@@ -14,8 +14,11 @@
 #define adjust_layer 3
 #define extra 4
 
+
+
 / {
-    macros {
+
+ macros {
         ctrl_c_com: ctrl_c_com {
             compatible = "zmk,behavior-macro";
             label = "CTRL_C_COM";
@@ -28,9 +31,7 @@
                 <&macro_tap &kp ,>;
         };
     };
-};
 
-/ {
     keymap {
         compatible = "zmk,keymap";
 
