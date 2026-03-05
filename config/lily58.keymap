@@ -75,10 +75,10 @@
 &kp TAB         &kp Q   &kp W   &kp E     &kp R      &kp T                           &kp Y   &kp U      &kp I         &kp O    &kp P     &kp MINUS
 &kp LEFT_SHIFT  &kp A   &kp S   &kp D     &kp F      &kp G                           &kp H   &kp J      &kp K         &kp L    &kp SEMI  &kp SQT
 &kp LCTRL       &kp Z   &kp X   &kp C     &kp V      &kp B   &kp LBKT     &kp RBKT   &kp N   &kp M      &kp COMMA     &kp DOT  &kp FSLH  &F13
-                            //  &kp LALT  &kp LCTRL  &mo 1   &kp ENTER    &kp SPACE  &mo 2   &kp RCTRL  &kp LEFT_ALT
                                 &kp LALT  &mo 1      &kp ENTER &kp LCTRL  &kp SPACE  &mo 2   &kp LEFT_ALT &kp RCTRL  
             >;
         };
+
 
         lower_layer {
             display-name = "Lower";
